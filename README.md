@@ -7,6 +7,7 @@
 ## Setup Instructions
 1. Update the connection string in the `RDbContext` class to match your SQL Server configuration.
 2. Open the Package Manager Console in Visual Studio and execute the command `Update-Database`. This will create or update the database schema according to the current Entity Framework migrations.
+3. before the above step please select the DataAccessLayer as the project in package manager console.
 
 ## Running the Application
 - **Saving Data:** Fill out the form and click the 'Save' button to save the data.
